@@ -1,0 +1,18 @@
+{
+  "name": "@project-sunbird/sunbird-epub-player-web-component",
+  "version": "1.0.1",
+  "description": "The web component package for the sunbird epub player",
+  "main": "sunbird-epub-player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/project-sunbird/sunbird-epub-player/blob/release-5.5.0/README.md",
+  "keywords": [
+    "sunbird",
+    "epub",
+    "player",
+    "web-component"
+  ],
+  "author": "sunbird",
+  "license": "MIT"
+}
