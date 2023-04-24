@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/project-sunbird/sunbird-epub-player/blob/release-5.5.0/README.md",
+  "homepage": "https://github.com/Sunbird-Knowlg/sunbird-epub-player/blob/release-5.5.0/README.md",
   "keywords": [
     "sunbird",
     "epub",
