@@ -2,7 +2,7 @@
  The Epub player library is powered by Angular. This player is primarily designed to be used on Sunbird consumption platforms _(mobile app, web portal, offline desktop app)_ to drive reusability and maintainability, hence reducing the redundant development effort significantly, and it can be integrated with any platform irrespective of the platforms and the frontend frameworks. It is exported not only as an angular library but also as a web component. 
 
 # Getting started with different integrations steps
- The pdf player can be integrated as a web component and also as an angular library in angular application projects and it can also be integrated into any mobile framework as a web component.              
+ The epub player can be integrated as a web component and also as an angular library in angular application projects and it can also be integrated into any mobile framework as a web component.              
 
 # Use as web components	
 
@@ -110,7 +110,7 @@ Any web based application can use this library as a web component. It accepts co
 
   ```
 
-  Refer the viewChild in ts file of the component and create the pdf player using document.createElement, then attach the player config and listen to the player and telemetry events like below and since we are rendering using viewChild these steps should be under ngAfterViewInit hook of the angular component.
+  Refer the viewChild in ts file of the component and create the epub player using document.createElement, then attach the player config and listen to the player and telemetry events like below and since we are rendering using viewChild these steps should be under ngAfterViewInit hook of the angular component.
 
 ```bash
 
