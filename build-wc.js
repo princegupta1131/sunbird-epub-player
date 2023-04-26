@@ -6,7 +6,7 @@ const build = async () => {
     "./dist/epub-player-wc/runtime.js",
     "./dist/epub-player-wc/polyfills.js",
     "./dist/epub-player-wc/vendor.js",
-    "./dist/epub-player-wc/main.js",
+    "./dist/epub-player-wc/main.js"
   ];
 
   await fs.ensureDir("dist/epub-player-wc");
@@ -16,6 +16,7 @@ const build = async () => {
     await fs.copy("./dist/epub-player-wc/assets", "web-component/assets");
   }
   await fs.copy("./dist/epub-player-wc/styles.css", "web-component/styles.css")
+  await fs.copy("README.md", "web-component/README.md")
   console.log("Files concatenated successfully!!!");
 };
 build();
