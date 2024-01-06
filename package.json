@@ -35,7 +35,7 @@
     "@project-sunbird/telemetry-sdk": "0.0.26",
     "document-register-element": "^1.7.2",
     "epubjs": "0.3.93",
-    "karma-coverage": "^2.2.0",
+    "karma-coverage": "^2.2.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.6.7",
     "tslib": "^2.0.0",
